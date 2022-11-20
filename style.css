@@ -53,7 +53,7 @@ nav ul li a {
 
 .text h1 {
   font-size: 5rem;
-  color: wheat;
+  color: rgb(255, 255, 255);
   background-image: linear-gradient(to right, rgb(247, 178, 57, 0.25), rgba(0, 0, 0, 0));
   padding: 0px 100px;
 }
@@ -61,7 +61,7 @@ nav ul li a {
 .text p {
   font-size: 1.5rem;
   width: 25vw;
-  color: wheat;
+  color: rgb(255, 255, 255);
   background-image: linear-gradient(to right, rgb(247, 178, 57, 0.25), rgba(0, 0, 0, 0));
   padding: 0px 100px 10px;
 }
@@ -70,15 +70,35 @@ nav ul li a {
   box-shadow: 0px 0px 10px black;
 }
 
-.about {
-  height: 250px;
-  padding: 25px;
+.row {
+  margin: auto;
+  width: 75vw;
   background-color: rgb(0, 255, 255, 0.25);
 }
 
-.about h2 {
+.row h2 {
+  padding-top: 50px;
   font-size: 2rem;
   text-align: left;
+}
+
+.column {
+  display: flex;
+  margin: 25px 100px 0px 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  height: 25px;
+}
+
+img {
+  box-shadow: 0px 0px 5px rgb(255, 255, 255, 1);
 }
 
 .footer {
