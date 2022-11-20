@@ -156,7 +156,6 @@ img {
   flex-direction: column;
   margin: 15px;
   width: 100vw;
-  border-radius: 10px;
 }
 
 .room h2 {
@@ -172,11 +171,31 @@ img {
   border-radius: 10px;
 }
 
-.room p {
+.room1 p {
   padding: 15px 15px 25px 15px;
   text-align: center;
-  color: antiquewhite;
-  background-image: url(img/small/image3.jpg);
+  color: rgb(0, 0, 0);
+  background-image: url(img/small/image4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.room2 p {
+  padding: 15px 15px 25px 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-image: url(img/small/image5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.room3 p {
+  padding: 15px 15px 25px 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-image: url(img/small/image6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
