@@ -150,14 +150,6 @@ img {
   width: 85vw;
 }
 
-.room1 {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  margin: 15px;
-  width: 100vw;
-}
-
 .room h2 {
   color: antiquewhite;
   height: 2.5rem;
@@ -169,33 +161,37 @@ img {
   font-weight: bold;
   background-color: rgb(46, 46, 46);
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
-.room1 p {
-  padding: 15px 15px 25px 15px;
+.room1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
   text-align: center;
   color: rgb(0, 0, 0);
-  background-image: url(img/small/image4.jpg);
+  /* background-image: url(img/small/image3.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
-.room2 p {
-  padding: 15px 15px 25px 15px;
+.room2 {
+  padding: 15px;
   text-align: center;
   color: rgb(0, 0, 0);
-  background-image: url(img/small/image5.jpg);
+  /* background-image: url(img/small/image4.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
 
-.room3 p {
-  padding: 15px 15px 25px 15px;
+.room3 {
+  padding: 15px;
   text-align: center;
   color: rgb(0, 0, 0);
-  background-image: url(img/small/image6.jpg);
+  /* background-image: url(img/small/image5.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
