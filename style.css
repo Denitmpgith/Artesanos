@@ -87,6 +87,15 @@ nav ul li a {
 }
 
 .text .img1 {
+  width: 250px;
+  height: 300px;
+  border-radius: 150px 0px 100px 0px;
+  background-color: rgba(66, 66, 66, 0.25);
+  background-image: url(img/medium2/image2.png);
+  background-size: cover;
+}
+
+.text .img1 img {
   box-shadow: none;
 }
 
