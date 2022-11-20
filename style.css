@@ -2,6 +2,10 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+p {
+  font-size: 2rem;
+}
+
 nav {
   position: fixed;
   display: flex;
@@ -165,7 +169,7 @@ figcaption {
 }
 
 .ourteam {
-  height: 100vh;
+  height: 50vh;
 }
 
 .ourteam .headourteam h2 {
@@ -184,7 +188,6 @@ figcaption {
   flex-direction: row;
   width: 100vw;
   height: 350px;
-  background-color: blue;
 }
 
 .ourteam .staf .staf1 {
@@ -219,11 +222,10 @@ figcaption {
 .ourteam .staf .staf4 {
   width: 200px;
   height: 250px;
-  background-color: aqua;
 }
 .ourteam .staf .staf4 .staf41 {
-  width: 250px;
-  height: 300px;
+  width: 200px;
+  height: 250px;
   background-image: url(img/small/image2c.png);
   background-size: cover;
 }
