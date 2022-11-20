@@ -40,6 +40,20 @@ nav ul li a {
   background-size: cover;
 }
 
+.logo {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 20vw;
+  margin-top: -75vw;
+  box-shadow: none;
+}
+
 .text {
   position: absolute;
   display: flex;
