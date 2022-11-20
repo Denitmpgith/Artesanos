@@ -145,7 +145,7 @@ figcaption {
   justify-content: space-around;
   flex-direction: column;
   width: 85vw;
-  background-color: aqua;
+  padding-bottom: 20px;
 }
 
 .room h2 {
@@ -163,7 +163,7 @@ figcaption {
 }
 
 .room1 {
-  padding: 0px 0px 0px 15px;
+  padding: 0px 15px 0px 15px;
   text-align: center;
   color: rgb(0, 0, 0);
   /* background-image: url(img/small/image3.jpg); */
