@@ -68,30 +68,26 @@ nav ul li a {
 }
 
 .room h2 {
-  color: antiquewhite;
+  color: rgb(0, 0, 0);
   height: 2.5rem;
+  width: 25vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: bold;
-  background-color: rgb(46, 46, 46);
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 .room1 {
-  padding: 0px 15px 0px 15px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   color: rgb(0, 0, 0);
-  /* background-image: url(img/small/image3.jpg); */
-  background-repeat: no-repeat;
-  background-size: cover;
   border-radius: 10px;
-}
-
-.room .room1 p {
-  background-color: aqua;
 }
 
 .room .room1 img {
@@ -149,15 +145,6 @@ nav ul li a {
   box-shadow: 0px 0px 15px black;
 }
 
-/*.row h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  color: rgb(0, 0, 0, 0.5);
-  padding: 25px 0px 25px 35px;
-  font-size: 2rem;
-  text-align: center;
-} */
-
 .column {
   display: flex;
   justify-content: space-around;
@@ -175,6 +162,19 @@ figcaption {
   align-items: center;
   text-align: left;
   height: 25px;
+}
+
+.ourteam {
+  height: 100vh;
+}
+
+.ourteam .headourteam h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 15px black;
 }
 
 .footer {
@@ -232,6 +232,9 @@ figcaption {
 
 @media screen and (min-width: 768px) {
   .room .room1 p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     padding: 10px 50px 10px 50px;
   }
 }
