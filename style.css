@@ -60,7 +60,7 @@ nav ul li a {
   font-weight: bold;
   color: rgb(255, 255, 255);
   background-image: linear-gradient(to right, rgb(247, 178, 57, 0.25), rgba(0, 0, 0, 0));
-  padding: 0px 100px;
+  padding: 0px 75px;
 }
 
 .text p {
@@ -68,7 +68,8 @@ nav ul li a {
   width: 25vw;
   color: rgb(255, 255, 255);
   background-image: linear-gradient(to right, rgb(247, 178, 57, 0.25), rgba(0, 0, 0, 0));
-  padding: 0px 100px 10px;
+  padding: 0px 70px 10px;
+  line-height: 25px;
 }
 
 .text .img1 {
@@ -118,4 +119,9 @@ img {
   font-size: 15px;
   color: rgb(0, 0, 0, 0.5);
   background-color: rgb(255, 255, 255);
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(247, 178, 57);
 }
