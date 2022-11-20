@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 nav {
@@ -36,9 +37,10 @@ nav ul li a {
 .jumbotron {
   height: 100vh;
   background: url(img/Jumbotron4.jpg) no-repeat fixed center;
-  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
-  /* background-color: rgb(42, 165, 48); */
   background-size: cover;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0, 0.5);
+  overflow: hidden;
+  /* background-color: rgb(42, 165, 48); */
 }
 
 .logo {
@@ -49,10 +51,51 @@ nav ul li a {
   align-items: center;
 }
 
-.logo img {
-  width: 20vw;
-  margin-top: -75vw;
-  box-shadow: none;
+.header_room {
+  font-size: 2rem;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 15px black;
+}
+
+.room {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-bottom: 20px;
+  padding: 10px 0px 10px 0px;
+}
+
+.room h2 {
+  color: antiquewhite;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background-color: rgb(46, 46, 46);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.room1 {
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  /* background-image: url(img/small/image3.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.room .room1 p {
+  background-color: aqua;
+}
+
+.room .room1 img {
+  border-radius: 14px;
 }
 
 .text {
@@ -61,7 +104,7 @@ nav ul li a {
   justify-content: space-evenly;
   flex-direction: column-reverse;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   margin-top: -600px;
   background-color: rgb(0, 0, 0, 0.3);
 }
@@ -98,14 +141,22 @@ nav ul li a {
   box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.1);
 }
 
-.row h2 {
+.headerrow {
+  font-size: 2rem;
+  text-align: center;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 15px black;
+}
+
+/*.row h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgb(0, 0, 0, 0.5);
   padding: 25px 0px 25px 35px;
   font-size: 2rem;
   text-align: center;
-}
+} */
 
 .column {
   display: flex;
@@ -124,47 +175,6 @@ figcaption {
   align-items: center;
   text-align: left;
   height: 25px;
-}
-
-.header_room {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
-  font-weight: bold;
-  margin: 25px 10px 25px 10px;
-}
-
-.room {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  width: 85vw;
-  padding-bottom: 20px;
-}
-
-.room h2 {
-  color: antiquewhite;
-  height: 2.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 1.1rem;
-  font-weight: bold;
-  background-color: rgb(46, 46, 46);
-  border-radius: 10px;
-  margin-bottom: 10px;
-}
-
-.room1 {
-  padding: 0px 15px 0px 15px;
-  text-align: center;
-  color: rgb(0, 0, 0);
-  /* background-image: url(img/small/image3.jpg); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
 }
 
 .footer {
@@ -217,5 +227,11 @@ figcaption {
     flex-direction: row;
     margin: auto;
     width: 85vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .room .room1 p {
+    padding: 10px 50px 10px 50px;
   }
 }
