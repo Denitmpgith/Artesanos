@@ -35,7 +35,7 @@ nav ul li a {
 
 .jumbotron {
   height: 100vh;
-  background: url(img/Jumbotron.jpg) no-repeat fixed center;
+  background: url(img/Jumbotron2.jpg) no-repeat fixed center;
   background-color: rgb(42, 165, 48);
   background-size: cover;
 }
@@ -107,9 +107,15 @@ nav ul li a {
 
 .column {
   display: flex;
-  margin: 25px 100px 0px 100px;
+  padding: 25px 100px 50px 100px;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.column1 {
+  display: flex;
+  align-items: center;
+  padding: 25px 0px 10px 0px;
 }
 
 figcaption {
